@@ -1,22 +1,22 @@
 # Frontend logger
 
-## [Russian](./README.RU.md) | English
+## Russian | [English](./README.md)
 
 ![console-output](docs/media/console-output.gif)
 
-Logger for browsers with opportunity to working together with Sentry.
+Логирование для фронтенда с возможностью использовать вместе с Sentry.
 
 ## Runbook
 
-### Install
+### Установка
 
 ```bash
 npm i @anonymous-development-projects/js-logger
 ```
 
-### Usage
+### Использование
 
-Basic usage:
+Базовое использование:
 
 ```javascript
 import Logger from '@anonymous-development-projects/js-logger';
@@ -39,7 +39,7 @@ logger.debug('Debug', 'message');
 logger.error(new Error('Error message')); // errorHandler will be executed if errorHandler is present
 ```
 
-Interface:
+Методы:
 
 ```typescript
 interface Logger {

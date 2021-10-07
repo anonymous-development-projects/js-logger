@@ -1,0 +1,123 @@
+// TODO check in windows
+const figures = {
+  tick: '✔',
+  cross: '✖',
+  checkboxOn: '☒',
+  checkboxOff: '☐',
+  squareSmallFilled: '◼',
+  star: '★',
+  play: '▶',
+  circle: '◯',
+  bullet: '●',
+  dot: '․',
+  line: '─',
+  ellipsis: '…',
+  info: 'ℹ',
+  warning: '⚠',
+  heart: '♥',
+};
+
+export const LOGGER_LEVELS = {
+  error: {
+    badge: figures.cross,
+    color: 'red',
+    label: 'error',
+    logLevel: 'error' as const,
+  },
+  fatal: {
+    badge: figures.cross,
+    color: 'red',
+    label: 'fatal',
+    logLevel: 'error' as const,
+  },
+  fav: {
+    badge: figures.heart,
+    color: 'magenta',
+    label: 'favorite',
+    logLevel: 'info' as const,
+  },
+  info: {
+    badge: figures.info,
+    color: 'cadetblue',
+    label: 'info',
+    logLevel: 'info' as const,
+  },
+  star: {
+    badge: figures.star,
+    color: 'yellow',
+    label: 'star',
+    logLevel: 'info' as const,
+  },
+  success: {
+    badge: figures.tick,
+    color: 'green',
+    label: 'success',
+    logLevel: 'info' as const,
+  },
+  wait: {
+    badge: figures.ellipsis,
+    color: 'aquamarine',
+    label: 'waiting',
+    logLevel: 'info' as const,
+  },
+  warn: {
+    badge: figures.warning,
+    color: 'yellow',
+    label: 'warning',
+    logLevel: 'warn' as const,
+  },
+  complete: {
+    badge: figures.checkboxOn,
+    color: 'cyan',
+    label: 'complete',
+    logLevel: 'info' as const,
+  },
+  pending: {
+    badge: figures.checkboxOff,
+    color: 'magenta',
+    label: 'pending',
+    logLevel: 'info' as const,
+  },
+  note: {
+    badge: figures.bullet,
+    color: 'aquamarine',
+    label: 'note',
+    logLevel: 'info' as const,
+  },
+  start: {
+    badge: figures.play,
+    color: 'green',
+    label: 'start',
+    logLevel: 'info' as const,
+  },
+  pause: {
+    badge: figures.squareSmallFilled,
+    color: 'yellow',
+    label: 'pause',
+    logLevel: 'info' as const,
+  },
+  debug: {
+    badge: figures.circle,
+    color: 'red',
+    label: 'debug',
+    logLevel: 'debug' as const,
+  },
+  await: {
+    badge: figures.ellipsis,
+    color: 'aquamarine',
+    label: 'awaiting',
+    logLevel: 'info' as const,
+  },
+  watch: {
+    badge: figures.ellipsis,
+    color: 'yellow',
+    label: 'watching',
+    logLevel: 'info' as const,
+  },
+  log: {
+    badge: '',
+    color: '',
+    label: '',
+    logLevel: 'info' as const,
+  },
+};
