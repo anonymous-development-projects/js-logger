@@ -8,9 +8,9 @@
     "jslogger"
   ],
   "author": {
-    "name" : "Anton Botsmanov",
-    "email" : "switchwebdev@gmail.com",
-    "url" : "https://github.com/sw1tchdev/"
+    "name": "Anton Botsmanov",
+    "email": "switchwebdev@gmail.com",
+    "url": "https://github.com/sw1tchdev/"
   },
   "license": "MIT",
   "homepage": "https://github.com/anonymous-development-projects/js-logger#readme",
